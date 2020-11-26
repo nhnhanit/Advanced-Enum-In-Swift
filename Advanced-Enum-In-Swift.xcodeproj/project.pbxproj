@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47C6A0FB256F43B70002C5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A0FA256F43B70002C5E8 /* AppDelegate.swift */; };
+		47C6A0FD256F43B70002C5E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A0FC256F43B70002C5E8 /* SceneDelegate.swift */; };
+		47C6A0FF256F43B70002C5E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A0FE256F43B70002C5E8 /* ViewController.swift */; };
+		47C6A102256F43B70002C5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C6A100256F43B70002C5E8 /* Main.storyboard */; };
+		47C6A104256F43B80002C5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C6A103256F43B80002C5E8 /* Assets.xcassets */; };
+		47C6A107256F43B80002C5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C6A105256F43B80002C5E8 /* LaunchScreen.storyboard */; };
+		47C6A11A256F54C90002C5E8 /* NestEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A119256F54C90002C5E8 /* NestEnums.swift */; };
+		47C6A11D256F54DF0002C5E8 /* ContainingEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A11C256F54DF0002C5E8 /* ContainingEnums.swift */; };
+		47C6A120256F55140002C5E8 /* Properties-Methods-Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A11F256F55140002C5E8 /* Properties-Methods-Enums.swift */; };
+		47C6A123256F555F0002C5E8 /* MutatingMethodEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A122256F555F0002C5E8 /* MutatingMethodEnums.swift */; };
+		47C6A12A256F56B40002C5E8 /* CustomInitEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A129256F56B40002C5E8 /* CustomInitEnums.swift */; };
+		47C6A12F256F57E60002C5E8 /* LifeSpanProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A12E256F57E60002C5E8 /* LifeSpanProtocol.swift */; };
+		47C6A133256F583E0002C5E8 /* PlayerEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A132256F583E0002C5E8 /* PlayerEnum.swift */; };
+		47C6A13B256F60720002C5E8 /* GenericEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C6A13A256F60720002C5E8 /* GenericEnums.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47C6A0F7256F43B70002C5E8 /* Advanced-Enum-In-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced-Enum-In-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C6A0FA256F43B70002C5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47C6A0FC256F43B70002C5E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47C6A0FE256F43B70002C5E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47C6A101256F43B70002C5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47C6A103256F43B80002C5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47C6A106256F43B80002C5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47C6A108256F43B80002C5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C6A119256F54C90002C5E8 /* NestEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestEnums.swift; sourceTree = "<group>"; };
+		47C6A11C256F54DF0002C5E8 /* ContainingEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainingEnums.swift; sourceTree = "<group>"; };
+		47C6A11F256F55140002C5E8 /* Properties-Methods-Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Properties-Methods-Enums.swift"; sourceTree = "<group>"; };
+		47C6A122256F555F0002C5E8 /* MutatingMethodEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingMethodEnums.swift; sourceTree = "<group>"; };
+		47C6A129256F56B40002C5E8 /* CustomInitEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInitEnums.swift; sourceTree = "<group>"; };
+		47C6A12E256F57E60002C5E8 /* LifeSpanProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSpanProtocol.swift; sourceTree = "<group>"; };
+		47C6A132256F583E0002C5E8 /* PlayerEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEnum.swift; sourceTree = "<group>"; };
+		47C6A13A256F60720002C5E8 /* GenericEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEnums.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C6A0F4256F43B70002C5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47C6A0EE256F43B70002C5E8 = {
+			isa = PBXGroup;
+			children = (
+				47C6A0F9256F43B70002C5E8 /* Advanced-Enum-In-Swift */,
+				47C6A0F8256F43B70002C5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47C6A0F8256F43B70002C5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47C6A0F7256F43B70002C5E8 /* Advanced-Enum-In-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47C6A0F9256F43B70002C5E8 /* Advanced-Enum-In-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				47C6A12C256F57710002C5E8 /* ProtocolOrientedEnum */,
+				47C6A10F256F444D0002C5E8 /* Enums */,
+				47C6A0FA256F43B70002C5E8 /* AppDelegate.swift */,
+				47C6A0FC256F43B70002C5E8 /* SceneDelegate.swift */,
+				47C6A0FE256F43B70002C5E8 /* ViewController.swift */,
+				47C6A100256F43B70002C5E8 /* Main.storyboard */,
+				47C6A103256F43B80002C5E8 /* Assets.xcassets */,
+				47C6A105256F43B80002C5E8 /* LaunchScreen.storyboard */,
+				47C6A108256F43B80002C5E8 /* Info.plist */,
+			);
+			path = "Advanced-Enum-In-Swift";
+			sourceTree = "<group>";
+		};
+		47C6A10F256F444D0002C5E8 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				47C6A11F256F55140002C5E8 /* Properties-Methods-Enums.swift */,
+				47C6A119256F54C90002C5E8 /* NestEnums.swift */,
+				47C6A11C256F54DF0002C5E8 /* ContainingEnums.swift */,
+				47C6A122256F555F0002C5E8 /* MutatingMethodEnums.swift */,
+				47C6A129256F56B40002C5E8 /* CustomInitEnums.swift */,
+				47C6A13A256F60720002C5E8 /* GenericEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		47C6A12C256F57710002C5E8 /* ProtocolOrientedEnum */ = {
+			isa = PBXGroup;
+			children = (
+				47C6A12E256F57E60002C5E8 /* LifeSpanProtocol.swift */,
+				47C6A132256F583E0002C5E8 /* PlayerEnum.swift */,
+			);
+			path = ProtocolOrientedEnum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47C6A0F6256F43B70002C5E8 /* Advanced-Enum-In-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C6A10B256F43B80002C5E8 /* Build configuration list for PBXNativeTarget "Advanced-Enum-In-Swift" */;
+			buildPhases = (
+				47C6A0F3256F43B70002C5E8 /* Sources */,
+				47C6A0F4256F43B70002C5E8 /* Frameworks */,
+				47C6A0F5256F43B70002C5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advanced-Enum-In-Swift";
+			productName = "Advanced-Enum-In-Swift";
+			productReference = 47C6A0F7256F43B70002C5E8 /* Advanced-Enum-In-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47C6A0EF256F43B70002C5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					47C6A0F6256F43B70002C5E8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 47C6A0F2256F43B70002C5E8 /* Build configuration list for PBXProject "Advanced-Enum-In-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47C6A0EE256F43B70002C5E8;
+			productRefGroup = 47C6A0F8256F43B70002C5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47C6A0F6256F43B70002C5E8 /* Advanced-Enum-In-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47C6A0F5256F43B70002C5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C6A107256F43B80002C5E8 /* LaunchScreen.storyboard in Resources */,
+				47C6A104256F43B80002C5E8 /* Assets.xcassets in Resources */,
+				47C6A102256F43B70002C5E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47C6A0F3256F43B70002C5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C6A120256F55140002C5E8 /* Properties-Methods-Enums.swift in Sources */,
+				47C6A133256F583E0002C5E8 /* PlayerEnum.swift in Sources */,
+				47C6A123256F555F0002C5E8 /* MutatingMethodEnums.swift in Sources */,
+				47C6A11A256F54C90002C5E8 /* NestEnums.swift in Sources */,
+				47C6A13B256F60720002C5E8 /* GenericEnums.swift in Sources */,
+				47C6A12A256F56B40002C5E8 /* CustomInitEnums.swift in Sources */,
+				47C6A11D256F54DF0002C5E8 /* ContainingEnums.swift in Sources */,
+				47C6A0FF256F43B70002C5E8 /* ViewController.swift in Sources */,
+				47C6A12F256F57E60002C5E8 /* LifeSpanProtocol.swift in Sources */,
+				47C6A0FB256F43B70002C5E8 /* AppDelegate.swift in Sources */,
+				47C6A0FD256F43B70002C5E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47C6A100256F43B70002C5E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C6A101256F43B70002C5E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47C6A105256F43B80002C5E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C6A106256F43B80002C5E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47C6A109256F43B80002C5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47C6A10A256F43B80002C5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47C6A10C256F43B80002C5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Advanced-Enum-In-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.Advanced-Enum-In-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47C6A10D256F43B80002C5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Advanced-Enum-In-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.Advanced-Enum-In-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C6A0F2256F43B70002C5E8 /* Build configuration list for PBXProject "Advanced-Enum-In-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C6A109256F43B80002C5E8 /* Debug */,
+				47C6A10A256F43B80002C5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C6A10B256F43B80002C5E8 /* Build configuration list for PBXNativeTarget "Advanced-Enum-In-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C6A10C256F43B80002C5E8 /* Debug */,
+				47C6A10D256F43B80002C5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47C6A0EF256F43B70002C5E8 /* Project object */;
+}
